@@ -92,6 +92,7 @@ public class PCP
                     {
                         System.out.print(element[ep].index+"\t->\t");
                         getSequence(element[ep].index);
+                        return; //Stop solution if one is found!
                     }                    
                 }
             }
